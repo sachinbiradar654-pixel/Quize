@@ -19,10 +19,9 @@ answer:2
 },
 
 {
-
 question: "Which HTML tag is used for creating links?",
 options: ["img", "div", "a", "p"],
-answer: 2
+answer:2
 },
 
 {
@@ -57,7 +56,7 @@ answer:0
 
 {
 question:"Which HTML heading is largest?",
-options:["<h6>","<h4>","<h1>","<h2>"],
+options:["h6","h4","h1","h2"],
 answer:2
 }
 
