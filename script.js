@@ -19,9 +19,9 @@ answer:2
 },
 
 {
-question:"Which tag creates a hyperlink?",
-options:["<link>","<a>","<href>","<url>"],
-answer:1
+question: "Which HTML tag is used for creating links?",
+options: ["img", "div", "a", "p"],
+answer: "a"
 },
 
 {
@@ -31,9 +31,9 @@ answer:2
 },
 
 {
-question:"Which HTML tag inserts an image?",
-options:["<img>","<image>","<src>","<picture>"],
-answer:0
+ question: "Which HTML tag inserts an image?",
+  options: ["img", "image", "src", "picture"],
+  answer: 0
 },
 
 {
