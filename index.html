@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Quiz Portal</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="container" id="loginPage">
+
+<h1>🎓 Student Quiz Portal</h1>
+
+<input type="text" id="studentName" placeholder="Enter Student Name">
+
+<input type="text" id="registerNo" placeholder="Enter Register Number">
+
+<button onclick="showInstructions()">Continue</button>
+
+</div>
+
+<div class="container hidden" id="instructionPage">
+
+<h1>Quiz Instructions</h1>
+
+<ul>
+
+<li>Total Questions : 10</li>
+<li>Each Question : 1 Mark</li>
+<li>No Negative Marking</li>
+<li>Time Limit : 1 Minute</li>
+<li>Quiz Auto Submit After Timer Ends</li>
+
+</ul>
+
+<button onclick="startQuiz()">Start Quiz</button>
+
+</div>
+
+<div class="container hidden" id="quizPage">
+
+<div class="top-bar">
+
+<div id="studentInfo"></div>
+
+<div id="timer">60 s</div>
+
+</div>
+
+<div class="progress-container">
+<div id="progressBar"></div>
+</div>
+
+<h3 id="questionCount"></h3>
+
+<h2 id="question"></h2>
+
+<div id="answerButtons"></div>
+
+<button id="nextBtn">Next Question</button>
+
+</div>
+
+<div class="container hidden" id="resultPage">
+
+<h1>Quiz Completed</h1>
+
+<p id="studentResult"></p>
+
+<h2 id="scoreText"></h2>
+
+<h2 id="percentage"></h2>
+
+<h2 id="grade"></h2>
+
+<button onclick="location.reload()">Restart Quiz</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
